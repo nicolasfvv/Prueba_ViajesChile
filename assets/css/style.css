@@ -1,1 +1,14 @@
 /* font-family: 'Inter', sans-serif; */
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+.bg_azul{
+    background-color: #3ac6e6;
+}
+h2, h5{
+    font-weight: 500;
+}
+h3, p, label, #Bt_enviar{
+    font-weight: 300;
+}
