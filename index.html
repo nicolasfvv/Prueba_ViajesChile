@@ -18,33 +18,33 @@
         <!--navbar-->
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
-                <span><img src="assets/img/viajes.svg" height="30px" alt=""></span><span><a
-                        class="navbar-brand text-white" href="#">Viajes Chile</a></span>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item active ">
-                            <a class="nav-link  text-white" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Quienes somos</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link text-white" href="#">Destacados</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contacto</a>
-                        </li>
-                    </ul>
+                <div class="container">
+                    <span><img src="assets/img/viajes.svg" height="30px" alt=""></span><span><a
+                            class="navbar-brand text-white" href="#">Viajes Chile</a></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Quienes somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Destacados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
+
         <!--carrusel-->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -71,13 +71,15 @@
         </div>
     </header>
     <section id="quienes_somos">
-        <div class="container py-5">
+        <div class="container pt-5">
             <h2 class="text-center pb-3">¿QUIÉNES SOMOS?</h2>
             <hr>
             <div class="row pt-3">
                 <!--parrafo 1-->
-                <div class="col-12 col-md-12 col-lg-4">
-                    <i class="fa-solid fa-plane fa-2x"></i>
+                <div class=" pb-5 col-12 col-md-12 col-lg-4">
+                    <div class="text-center">
+                        <i class="fa-solid fa-plane fa-2x"></i>
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit feugiat dapibus, litora magnis fringilla
                         auctor
                         etiam eros ac consequat eu, nunc vestibulum cum placerat suspendisse dignissim morbi blandit.
@@ -90,7 +92,7 @@
                         luctus nullam sapien orci.</p>
                 </div>
                 <!--parrafo 2-->
-                <div class="col-12 col-md-12 col-lg-4">
+                <div class="pb-5 col-12 col-md-12 col-lg-4">
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit feugiat dapibus, litora magnis fringilla
                         auctor
                         etiam eros ac consequat eu, nunc vestibulum cum placerat suspendisse dignissim morbi blandit.
@@ -101,11 +103,15 @@
                         fringilla
                         fusce
                         luctus nullam sapien orci.</p>
-                    <i class="fa-solid fa-mountain fa-2x"></i>
+                        <div class="text-center">
+                            <i class="fa-solid fa-mountain fa-2x"></i>
+                        </div>                    
                 </div>
                 <!--parrafo 3-->
-                <div class="col-12 col-md-12 col-lg-4">
-                    <i class="fa-solid fa-route fa-2x"></i>
+                <div class="pb-5 col-12 col-md-12 col-lg-4">
+                    <div class="text-center">
+                        <i class="fa-solid fa-route fa-2x"></i>
+                    </div>                    
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit feugiat dapibus, litora magnis fringilla
                         auctor
                         etiam eros ac consequat eu, nunc vestibulum cum placerat suspendisse dignissim morbi blandit.
@@ -175,7 +181,7 @@
     <section id="contacto">
         <!--contacto-->
         <div class="container">
-            <h2 class="text-center">CONTACTO</h2>
+            <h2 class="text-center pb-3">CONTACTO</h2>
             <hr>
             <form>
                 <div class="mb-3">
@@ -198,14 +204,22 @@
     <footer class="py-4">
         <div class="container">
             <div class="row">
-                <div class="col-7">
-                    <p class="m-0 align-middle">VIAJES CHILE</p>
+                <div class="col-9">
+                    <p class="m-0 ms-5 ps-5">VIAJES CHILE</p>
                 </div>
-                <div class="col-5">
-                    <i class="fa-brands fa-github-square fa-2x"></i>
-                    <i class="fa-brands fa-linkedin fa-2x"></i>
-                    <i class="fa-brands fa-twitter-square fa-2x"></i>
-                    <i class="fa-brands fa-facebook-square fa-2x"></i>
+                <div class="row col-3">
+                    <div class="row col-3">
+                        <i class="fa-brands fa-github-square fa-2x"></i>
+                    </div>
+                    <div class="row col-3">
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                    </div>
+                    <div class="row col-3">
+                        <i class="fa-brands fa-twitter-square fa-2x"></i>
+                    </div>
+                    <div class="row col-3">
+                        <i class="fa-brands fa-facebook-square fa-2x"></i>
+                    </div>
                 </div>
             </div>
         </div>
