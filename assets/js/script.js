@@ -1,7 +1,11 @@
-/* $(document).ready(function () {
-    $(document).scroll(function (e) {
+$(document).ready(function () {
+    $(window).scroll(function (e) {
         const y = $("html").scrollTop();
-        if (y > 300) $("navbar").addClass("bg-dark")
-        else $("navbar").removeClass("bg-dark")
+        if (y > 1200) {
+            $("nav").css("background-color", "#000")
+        }
+        else {
+            $("nav").css("background-color", "transparent" )
+        }
     })
-}); */
+});
