@@ -3,11 +3,15 @@ body{
     font-family: 'Inter', sans-serif;
 }
 .bg_azul{
-    background-color: #3ac6e6;
+    background-color: #07caf0;
 }
 h2, h5{
     font-weight: 500;
 }
 h3, p, label, #Bt_enviar{
     font-weight: 300;
+}
+i{
+    text-decoration: none;
+    color: white;
 }
