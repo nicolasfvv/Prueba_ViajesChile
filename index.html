@@ -17,7 +17,7 @@
     <header class="pb-5" id="navbar_carrusel">
         <!--navbar-->
         <div class="container">
-            <nav class="navbar navbar-expand-lg fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                 <div class="container">
                     <span><img src="assets/img/viajes.svg" height="30px" alt=""></span><span><a
                             class="navbar-brand text-white" href="#">Viajes Chile</a></span>
@@ -77,7 +77,9 @@
                 <!--parrafo 1-->
                 <div class=" pb-5 col-12 col-md-12 col-lg-4">
                     <div class="text-center bg_azul">
-                        <i class="fa-solid fa-plane fa-2x"></i>
+                        <button type="button" class="btn bg_azul" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Avión"><i class="fa-solid fa-plane fa-2x"></i>
+                        </button>
                     </div>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipiscing elit feugiat dapibus, litora
                         magnis fringilla
@@ -105,13 +107,17 @@
                         fusce
                         luctus nullam sapien orci.</p>
                     <div class="text-center bg_azul">
-                        <i class="fa-solid fa-mountain fa-2x"></i>
+                        <button type="button" class="btn bg_azul" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Montaña"><i class="fa-solid fa-mountain fa-2x"></i>
+                        </button>
                     </div>
                 </div>
                 <!--parrafo 3-->
                 <div class="col-12 col-md-12 col-lg-4">
                     <div class="text-center bg_azul">
-                        <i class="fa-solid fa-route fa-2x"></i>
+                        <button type="button" class="btn bg_azul" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Ruta"><i class="fa-solid fa-route fa-2x"></i>
+                        </button>
                     </div>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipiscing elit feugiat dapibus, litora
                         magnis fringilla
@@ -138,8 +144,9 @@
                     <div class="card bg_azul" style="width: 18rem">
                         <img src="assets/img/card1.jpg" height="190px" class="card-img-top" alt="tarjeta1">
                         <div class="card-body">
-                            <h5 class="card-title text-white">Lorem ipsum dolor sit amet</h5>
-                            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipiscing elit, leo
+                            <h5 id="card_title1" class="card-title text-white">Lorem ipsum dolor sit amet</h5>
+                            <p id="card_text1" class="card-text text-white">Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit, leo
                                 aliquet
                                 ridiculus ligula curae sed, sociosqu potenti mattis elementum nisl malesuada.</p>
                         </div>
@@ -150,8 +157,9 @@
                     <div class="card bg_azul" style="width: 18rem">
                         <img src="assets/img/card2.jpg" height="190px" class="card-img-top" alt="tarjeta2">
                         <div class="card-body">
-                            <h5 class="card-title text-white">Consectetur adipisicing elit</h5>
-                            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipiscing elit
+                            <h5 id="card_title2" class="card-title text-white">Consectetur adipisicing elit</h5>
+                            <p id="card_text2" class="card-text text-white">Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit
                                 aliquam commodo
                                 odio, orci risus lacus nibh eu gravida senectus pellentesque est.</p>
                         </div>
@@ -162,8 +170,10 @@
                     <div class="card bg_azul" style="width: 18rem">
                         <img src="assets/img/card3.jpg" height="190px" class="card-img-top" alt="tarjeta3">
                         <div class="card-body">
-                            <h5 class="card-title text-white">Sed do eiusmod tempor incididunt ut labore</h5>
-                            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipiscing elit
+                            <h5 id="card_title3" class="card-title text-white">Sed do eiusmod tempor incididunt ut
+                                labore</h5>
+                            <p id="card_text3" class="card-text text-white">Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit
                                 viverra egestas
                                 dignissim, fermentum volutpat magna semper netus cras nascetur diam etiam.</p>
                         </div>
@@ -174,8 +184,9 @@
                     <div class="card bg_azul" style="width: 18rem">
                         <img src="assets/img/card4.jpg" height="190px" class="card-img-top" alt="tarjeta4">
                         <div class="card-body">
-                            <h5 class="card-title text-white">Ut enim ad minim veniam</h5>
-                            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipiscing elit,
+                            <h5 id="card_title4" class="card-title text-white">Ut enim ad minim veniam</h5>
+                            <p id="card_text4" class="card-text text-white">Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit,
                                 felis commodo
                                 semper non viverra imperdiet, aliquet torquent facilisi a conubia id.</p>
                         </div>
@@ -219,8 +230,7 @@
                                 class="fa-brands fa-github-square fa-2x"></i></a>
                     </div>
                     <div class="text-center col-2 col-md-1 col-lg-1">
-                        <a href="https://linkedin.com/" target="blank"><i
-                                class="fa-brands fa-linkedin fa-2x"></i></a>
+                        <a href="https://linkedin.com/" target="blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
                     </div>
                     <div class="text-center col-2 col-md-1 col-lg-1">
                         <a href="https://twitter.com/" target="blank"><i
@@ -242,7 +252,7 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/script.js"></script> 
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
