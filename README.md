@@ -1,4 +1,4 @@
-# Pruebas Viajes Chile
+# Prueba Viajes Chile
 
 Pagina web creada para la agencia "Viajes Chile", con el fin de que puedan darse a conocer y mostrar los servicios que ofrecen a quienes esten interesados en realizar visitas turisticas o viajes vacacionales a diferentes localidades de interes en Chile. Puede visitar la pagina en el siguiente enlace [www.ViajesChile.cl](https://nicolasfvv.github.io/Prueba_ViajesChile/)
 
