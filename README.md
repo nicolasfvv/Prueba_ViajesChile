@@ -13,7 +13,7 @@ Pagina web creada para la agencia "Viajes Chile", con el fin de que puedan darse
 ## Autor
 
 Nicolás Vásquez
-https://github.com/nicolasfvv
+- https://github.com/nicolasfvv
 
 ## Donaciones
 
